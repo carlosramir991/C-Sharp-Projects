@@ -1,0 +1,12 @@
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/bin/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.deps.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/bin/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.runtimeconfig.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/bin/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.runtimeconfig.dev.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/bin/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/bin/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/obj/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.csprojAssemblyReference.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/obj/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.AssemblyInfoInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/obj/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.AssemblyInfo.cs
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/obj/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.csproj.CoreCompileInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/obj/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/obj/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_124_acmeaccounting.cs/Drill_124_acmeaccounting.cs/obj/Debug/netcoreapp3.1/Drill_124_acmeaccounting.cs.genruntimeconfig.cache
