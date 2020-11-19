@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{F849C301-4A27-4A0F-B5F3-5A7F68C5A286}|Default">
-  <MonoDevelop.Ide.ItemProperties.Drill__140__StudentDailyReport FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_140_StudentDailyReport/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.Drill__140__StudentDailyReport PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Basic_C#_Programs/Assignment_3.cs/Assignment_3.cs">
     <Files>
       <File FileName="Drill_140_StudentDailyReport/Program.cs" Line="40" Column="2" />
+      <File FileName="../../../Basic_C#_Programs/Assignment_3.cs/Assignment_3.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
