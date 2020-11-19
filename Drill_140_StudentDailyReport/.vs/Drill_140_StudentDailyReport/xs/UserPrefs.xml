@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{F849C301-4A27-4A0F-B5F3-5A7F68C5A286}|Default">
+  <MonoDevelop.Ide.ItemProperties.Drill__140__StudentDailyReport FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_140_StudentDailyReport/Program.cs">
+    <Files>
+      <File FileName="Drill_140_StudentDailyReport/Program.cs" Line="40" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Drill_140_StudentDailyReport" expanded="True">
+            <Node name="Drill_140_StudentDailyReport" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

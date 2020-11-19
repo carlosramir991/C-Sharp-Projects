@@ -1,0 +1,12 @@
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/bin/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.deps.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/bin/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.runtimeconfig.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/bin/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.runtimeconfig.dev.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/bin/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/bin/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/obj/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.csprojAssemblyReference.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/obj/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.AssemblyInfoInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/obj/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.AssemblyInfo.cs
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/obj/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.csproj.CoreCompileInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/obj/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/obj/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_140_StudentDailyReport/Drill_140_StudentDailyReport/obj/Debug/netcoreapp3.1/Drill_140_StudentDailyReport.genruntimeconfig.cache
