@@ -17,35 +17,42 @@ namespace Drill_185
             int PackageWeight = Convert.ToInt32(Input1);
 
 
-            if (PackageWeight > 50) {
+            if (PackageWeight > 50)
+            {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
                 return;
             }
-            
-
-
-            Console.WriteLine("Please Enter the package width.");
-            string Input2 = Console.ReadLine();
-            int PackageWidth = Convert.ToInt32(Input2);
-
-
-            Console.WriteLine("Please Enter the package length.");
-            string Input3 = Console.ReadLine();
-            int PackageLength = Convert.ToInt32(Input3);
-
-
-            if (PackageLength >= 50 || PackageWidth >= 50)
+            else
             {
-                Console.WriteLine("Package too big to be shipped via Package Express.");
-                return;
-            } 
-
-            double price = PackageLength * PackageWeight * PackageWidth;
-            int finalPrice = (int)price / 100;
-            Console.WriteLine("Your Your estimated total for shipping this package is: $" + finalPrice +".00" +
-               " Thank you!");
 
 
+                Console.WriteLine("Please Enter the package width.");
+                string Input2 = Console.ReadLine();
+                int PackageWidth = Convert.ToInt32(Input2);
+
+
+                Console.WriteLine("Please Enter the package length.");
+                string Input3 = Console.ReadLine();
+                int PackageLength = Convert.ToInt32(Input3);
+
+                Console.WriteLine("Please enter the height of the package.");
+                string Input4 = Console.ReadLine();
+                int PackageHeight = Convert.ToInt32(Input4);
+
+
+                if (PackageLength >= 50 || PackageWidth >= 50)
+                {
+                    Console.WriteLine("Package too big to be shipped via Package Express.");
+                }
+                else
+                {
+                    double price = PackageLength * PackageHeight * PackageWidth;
+                    int finalPrice = (int)price / 100;
+                    Console.WriteLine("Your Your estimated total for shipping this package is: $" + finalPrice + ".00" +
+                       " Thank you!");
+
+                }
+            }
 
         }
     }
