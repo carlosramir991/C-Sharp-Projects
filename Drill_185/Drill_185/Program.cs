@@ -46,7 +46,7 @@ namespace Drill_185
                 else
                 {
 
-                    double price = PackageLength * PackageHeight * PackageWidth;
+                    double price = PackageLength * PackageHeight * PackageWidth * PackageWeight;
                     int finalPrice = (int)price / 100;
                     Console.WriteLine("Your Your estimated total for shipping this package is: $" + finalPrice + ".00" +
                            " Thank you!");
