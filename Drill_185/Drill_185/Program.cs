@@ -39,18 +39,17 @@ namespace Drill_185
                 string Input4 = Console.ReadLine();
                 int PackageHeight = Convert.ToInt32(Input4);
 
-
-                if (PackageLength >= 50 || PackageWidth >= 50)
+                if (PackageWidth + PackageLength + PackageHeight >= 50)
                 {
                     Console.WriteLine("Package too big to be shipped via Package Express.");
                 }
                 else
                 {
+
                     double price = PackageLength * PackageHeight * PackageWidth;
                     int finalPrice = (int)price / 100;
                     Console.WriteLine("Your Your estimated total for shipping this package is: $" + finalPrice + ".00" +
-                       " Thank you!");
-
+                           " Thank you!");
                 }
             }
 
