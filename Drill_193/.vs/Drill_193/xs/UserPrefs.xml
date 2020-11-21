@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{58230C9C-05D0-4120-81F8-810DCD2AB09B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Drill_193/Program.cs">
     <Files>
-      <File FileName="Drill_193/Program.cs" Line="9" Column="47" />
+      <File FileName="Drill_193/Program.cs" Line="14" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Drill_193" expanded="True">
-            <Node name="Drill_193" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Drill_193" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Drill__193 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Drill__193 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
