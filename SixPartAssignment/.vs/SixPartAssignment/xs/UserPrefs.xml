@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{9C1C16E7-1BF2-452E-844A-96FC70E6F9A6}|Default">
+  <MonoDevelop.Ide.ItemProperties.SixPartAssignment PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Drill_209/Drill_209/Program.cs">
+    <Files>
+      <File FileName="../Drill_209/Drill_209/Program.cs" Line="136" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SixPartAssignment" expanded="True">
+            <Node name="SixPartAssignment" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

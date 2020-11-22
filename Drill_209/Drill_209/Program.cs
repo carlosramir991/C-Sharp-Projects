@@ -7,7 +7,7 @@ namespace SixPartAssignment
     {
         static void Main(string[] args)
         {
-            //Start of Part 1
+//Start of Part 1
             //string[] stringArr = { "Cat ", "dog ", "mouse ", "bird ", "fox " };
             //Console.WriteLine("Type something please!");
             //string input1 = Console.ReadLine();
@@ -22,9 +22,9 @@ namespace SixPartAssignment
             //{
             //    Console.WriteLine(stringArr[i]);
             //}
-            //End of Part 1
+//End of Part 1
 
-            //Start of Part 2
+//Start of Part 2
 
             //bool endless = true;
 
@@ -32,9 +32,9 @@ namespace SixPartAssignment
             //    Console.WriteLine("This is infinite");
             //}
 
-            // End of Part 2
+// End of Part 2
 
-            //Start of Part 3
+//Start of Part 3
 
             //string[] stringArr2 = { "Cat ", "dog ", "mouse ", "bird ", "fox " };
             //Console.WriteLine("Type something please!");
@@ -52,9 +52,9 @@ namespace SixPartAssignment
             //    Console.WriteLine(stringArr2[i]);
             //}
 
-            // End of Part 3
+// End of Part 3
 
-            //Start of Part 4
+//Start of Part 4
 
 
             //List<string> list1 = new List<string>() {"apple","dog","building","computer" };
@@ -93,9 +93,9 @@ namespace SixPartAssignment
             //while (inputChecker = false);
             //Console.ReadLine();
 
-            //End of Part 4
+//End of Part 4
 
-            //Start of Part 5
+//Start of Part 5
 
             //List<string> dopple = new List<string>() {"rock","pebble","rock","mountain","boulder" };
             //Console.WriteLine("Please enter a mineral to search on our list.");
@@ -131,11 +131,11 @@ namespace SixPartAssignment
             //}
             //while (inputChecker = false && counter <= 4);
 
-            //End of Part 5
+//End of Part 5
 
-            //Start of Part 6
-            List<string> dopple2 = new List<string>() {"U.S.","Canada","Japan","China","France","Canada" };
-            List<string> dopple3 = new List<string>();
+//Start of Part 6
+            //List<string> dopple2 = new List<string>() {"U.S.","Canada","Japan","China","France","Canada" };
+            //List<string> dopple3 = new List<string>();
 
 
             //foreach (string country in dopple2)
