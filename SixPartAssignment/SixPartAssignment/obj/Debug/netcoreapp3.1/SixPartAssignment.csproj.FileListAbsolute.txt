@@ -1,0 +1,12 @@
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/bin/Debug/netcoreapp3.1/SixPartAssignment.deps.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/bin/Debug/netcoreapp3.1/SixPartAssignment.runtimeconfig.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/bin/Debug/netcoreapp3.1/SixPartAssignment.runtimeconfig.dev.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/bin/Debug/netcoreapp3.1/SixPartAssignment.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/bin/Debug/netcoreapp3.1/SixPartAssignment.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/obj/Debug/netcoreapp3.1/SixPartAssignment.csprojAssemblyReference.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/obj/Debug/netcoreapp3.1/SixPartAssignment.AssemblyInfoInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/obj/Debug/netcoreapp3.1/SixPartAssignment.AssemblyInfo.cs
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/obj/Debug/netcoreapp3.1/SixPartAssignment.csproj.CoreCompileInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/obj/Debug/netcoreapp3.1/SixPartAssignment.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/obj/Debug/netcoreapp3.1/SixPartAssignment.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/SixPartAssignment/SixPartAssignment/obj/Debug/netcoreapp3.1/SixPartAssignment.genruntimeconfig.cache
