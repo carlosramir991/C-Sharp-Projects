@@ -1,16 +1,14 @@
 ﻿<Properties StartupConfiguration="{EBAA6836-9027-4EC4-90D9-1A12D144393A}|Default">
-  <MonoDevelop.Ide.ItemProperties.Drill__214 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Drill__214 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Drill_214/Program.cs">
     <Files>
-      <File FileName="Drill_214/Program.cs" Line="16" Column="490" />
+      <File FileName="Drill_214/Program.cs" Line="21" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Drill_214" expanded="True">
-            <Node name="Drill_214" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Drill_214" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
