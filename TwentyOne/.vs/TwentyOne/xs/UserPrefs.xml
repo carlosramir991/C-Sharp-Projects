@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{B001AED1-55F3-4BE6-B322-05F641962EA5}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="TwentyOne/Program.cs">
     <Files>
-      <File FileName="TwentyOne/Program.cs" Line="10" Column="18" />
-      <File FileName="TwentyOne/Card.cs" Line="14" Column="26" />
-      <File FileName="TwentyOne/Deck.cs" Line="17" Column="23" />
+      <File FileName="TwentyOne/Program.cs" Line="45" Column="9" />
+      <File FileName="TwentyOne/Card.cs" />
+      <File FileName="TwentyOne/Deck.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TwentyOne" expanded="True">
-            <Node name="TwentyOne" expanded="True" selected="True" />
+            <Node name="TwentyOne" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

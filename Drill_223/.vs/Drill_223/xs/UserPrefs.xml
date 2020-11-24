@@ -1,15 +1,13 @@
 ﻿<Properties StartupConfiguration="{A110C001-68CE-4B3C-9FBA-E599A36C7CE7}|Default">
   <MonoDevelop.Ide.ItemProperties.Drill__223 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_223/Program.cs">
-    <Files>
-      <File FileName="Drill_223/Program.cs" Line="2" Column="3" />
-      <File FileName="Drill_223/math.cs" Line="26" Column="28" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Drill_223" expanded="True">
-            <Node name="Drill_223" expanded="True" selected="True" />
+            <Node name="Drill_223" expanded="True">
+              <Node name="methods1.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

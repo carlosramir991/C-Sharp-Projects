@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_209/Drill_209/Drill_209.csproj",
-      "projectName": "Drill_209",
-      "projectPath": "/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_209/Drill_209/Drill_209.csproj",
+      "projectUniqueName": "/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_226/Drill_226/Drill_226.csproj",
+      "projectName": "Drill_226",
+      "projectPath": "/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_226/Drill_226/Drill_226.csproj",
       "packagesPath": "/Users/slims/.nuget/packages/",
-      "outputPath": "/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_209/Drill_209/obj/",
+      "outputPath": "/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_226/Drill_226/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/slims/.config/NuGet/NuGet.Config"
