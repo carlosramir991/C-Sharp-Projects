@@ -103,36 +103,33 @@ namespace Drill_209
 
             //Start of Part 5
 
-            //List<string> dopple = new List<string>() { "rock", "pebble", "rock", "mountain", "boulder" };
-            //Console.WriteLine("Please enter a mineral to search on our list.");
-            //string input4 = Console.ReadLine();
-            //bool inputChecker = false;
-            //int counter = 0;
+            List<string> dopple = new List<string>() { "pebble", "rock", "rock", "mountain", "boulder" };
+            Console.WriteLine("Please enter a mineral to search on our list.");
+            string input4 = Console.ReadLine();
+            bool inputChecker = false;
+            int counter = 0;
 
 
-            //do
-            //{
-            //    for (int j = 1; j < dopple.Count; j++)
-            //    {
-                    
-            //        if (input4 == dopple[j] && dopple[j] == dopple[counter])
-            //        {
-            //            inputChecker = true;
-            //            Console.WriteLine("Your item was found in indices: ");
-            //            Console.WriteLine(j);
-            //            Console.WriteLine(counter);
-            //        }
-            //        else if (j == 4 && inputChecker == false)
-            //        {
-            //            Console.WriteLine("Your mineral was not found on the list.");
-            //        }
-            //        else
-            //        {
-            //            continue;
-            //        }
-            //    }
-            //}
-            //while (inputChecker = false && counter <= 4);
+            do
+            {
+                for (int j = 1; j < dopple.Count; j++)
+                {
+
+                    if (input4 == dopple[j])
+                    {
+                        inputChecker = true;
+                        Console.WriteLine("Your item was found in index: "+ j);
+                    }
+                    else if (j == 4 && inputChecker == false)
+                    {
+                        Console.WriteLine("Your mineral was not found on the list.");
+                        Console.WriteLine("Guess again.");
+                        input4 = Console.ReadLine();
+                    }
+
+                }
+            }
+            while (inputChecker == false && counter <= 4);
 
             //End of Part 5
 

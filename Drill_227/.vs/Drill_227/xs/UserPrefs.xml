@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{B02E3914-1597-4DCA-99AA-1C15217D2090}|Default">
+  <MonoDevelop.Ide.ItemProperties.Drill__227 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_227/class1.cs">
+    <Files>
+      <File FileName="Drill_227/Program.cs" Line="1" Column="1" />
+      <File FileName="Drill_227/class1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Drill_227" expanded="True">
+            <Node name="Drill_227" expanded="True">
+              <Node name="class1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
