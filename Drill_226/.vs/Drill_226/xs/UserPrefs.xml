@@ -2,15 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.Drill__226 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../Drill_209/Drill_209/Program.cs">
     <Files>
-      <File FileName="../Drill_209/Drill_209/Program.cs" Line="24" Column="16" />
+      <File FileName="../Drill_209/Drill_209/Program.cs" Line="14" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Drill_226" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

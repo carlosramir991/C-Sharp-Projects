@@ -29,7 +29,15 @@ namespace Drill_226
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int int1 = 2;
+            decimal dec2 = 3.1m;
+            string str1 = "88";
+            class1 cls1 = new class1();
+
+            
+            Console.WriteLine(cls1.squareNum(int1));
+            Console.WriteLine(cls1.squareNum(dec2));
+            Console.WriteLine(cls1.squareNum(str1));
         }
     }
 }
