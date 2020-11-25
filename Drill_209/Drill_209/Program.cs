@@ -28,15 +28,15 @@ namespace Drill_209
             //In order to make this an infinite loop one must make sure that the bool 'endless' is changed to
             //'false' after writing the line 'This is infinite'. 
 
-            //bool endless;
+            bool endless = true;
 
-            //while (endless = true)
-            //{
-            //    endless = true;
-            //    Console.WriteLine("This is infinite");
-            //    endless = false;
+            while (endless == true)
+            {
+                endless = true;
+                Console.WriteLine("This is infinite");
+                endless = false;
 
-            //}
+            }
 
             // End of Part 2
 
@@ -103,33 +103,33 @@ namespace Drill_209
 
             //Start of Part 5
 
-            List<string> dopple = new List<string>() { "pebble", "rock", "rock", "mountain", "boulder" };
-            Console.WriteLine("Please enter a mineral to search on our list.");
-            string input4 = Console.ReadLine();
-            bool inputChecker = false;
-            int counter = 0;
+            //List<string> dopple = new List<string>() { "pebble", "rock", "rock", "mountain", "boulder" };
+            //Console.WriteLine("Please enter a mineral to search on our list.");
+            //string input4 = Console.ReadLine();
+            //bool inputChecker = false;
+            //int counter = 0;
 
 
-            do
-            {
-                for (int j = 1; j < dopple.Count; j++)
-                {
+            //do
+            //{
+            //    for (int j = 1; j < dopple.Count; j++)
+            //    {
 
-                    if (input4 == dopple[j])
-                    {
-                        inputChecker = true;
-                        Console.WriteLine("Your item was found in index: "+ j);
-                    }
-                    else if (j == 4 && inputChecker == false)
-                    {
-                        Console.WriteLine("Your mineral was not found on the list.");
-                        Console.WriteLine("Guess again.");
-                        input4 = Console.ReadLine();
-                    }
+            //        if (input4 == dopple[j])
+            //        {
+            //            inputChecker = true;
+            //            Console.WriteLine("Your item was found in index: "+ j);
+            //        }
+            //        else if (j == 4 && inputChecker == false)
+            //        {
+            //            Console.WriteLine("Your mineral was not found on the list.");
+            //            Console.WriteLine("Guess again.");
+            //            input4 = Console.ReadLine();
+            //        }
 
-                }
-            }
-            while (inputChecker == false && counter <= 4);
+            //    }
+            //}
+            //while (inputChecker == false && counter <= 4);
 
             //End of Part 5
 
