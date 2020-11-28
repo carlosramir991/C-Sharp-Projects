@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{17402DA2-12BA-4DC9-975F-1E8390D84B92}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_231/staticClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_231/Program.cs">
     <Files>
-      <File FileName="Drill_231/Program.cs" Line="29" Column="40" />
-      <File FileName="Drill_231/class1.cs" Line="18" Column="17" />
-      <File FileName="Drill_231/staticClass.cs" Line="6" Column="12" />
+      <File FileName="Drill_231/Program.cs" Line="41" Column="33" />
+      <File FileName="Drill_231/staticClass.cs" Line="11" Column="35" />
+      <File FileName="Drill_231/class1.cs" Line="36" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Drill_231" expanded="True">
             <Node name="Drill_231" expanded="True">
-              <Node name="staticClass.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
