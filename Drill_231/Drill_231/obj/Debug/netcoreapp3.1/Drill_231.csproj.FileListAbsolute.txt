@@ -1,0 +1,12 @@
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/bin/Debug/netcoreapp3.1/Drill_231.deps.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/bin/Debug/netcoreapp3.1/Drill_231.runtimeconfig.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/bin/Debug/netcoreapp3.1/Drill_231.runtimeconfig.dev.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/bin/Debug/netcoreapp3.1/Drill_231.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/bin/Debug/netcoreapp3.1/Drill_231.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/obj/Debug/netcoreapp3.1/Drill_231.csprojAssemblyReference.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/obj/Debug/netcoreapp3.1/Drill_231.AssemblyInfoInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/obj/Debug/netcoreapp3.1/Drill_231.AssemblyInfo.cs
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/obj/Debug/netcoreapp3.1/Drill_231.csproj.CoreCompileInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/obj/Debug/netcoreapp3.1/Drill_231.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/obj/Debug/netcoreapp3.1/Drill_231.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_231/Drill_231/obj/Debug/netcoreapp3.1/Drill_231.genruntimeconfig.cache
