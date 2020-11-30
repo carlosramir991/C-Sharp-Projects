@@ -21,15 +21,15 @@ namespace Drill_255
         static void Main(string[] args)
         {
             employee<string> emp = new employee<string>();
-            emp.things  = new List<String>() { "Mop", "Bucket", "Pine Sol", "Paper Towels" };
+            emp.things  = new List<string>() { "Mop", "Bucket", "Pine Sol", "Paper Towels" };
             employee<int> emp2 = new employee<int>();
-            emp2.things2 = new List<int>() { 12, 1, 3, 4 };
+            emp2.things = new List<int>() { 12, 1, 3, 4 };
 
             foreach (string thing in emp.things){
                 Console.WriteLine(thing);
             }
 
-            foreach (int thing in emp2.things2){
+            foreach (int thing in emp2.things){
                 Console.WriteLine(thing);
 
 
