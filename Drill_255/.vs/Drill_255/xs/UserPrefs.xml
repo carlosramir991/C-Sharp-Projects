@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{0A8F7B60-43C1-420B-A4B5-DA0024E874F7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_255/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Drill_255/employee.cs">
     <Files>
-      <File FileName="Drill_255/Program.cs" Line="19" Column="31" />
-      <File FileName="Drill_255/employee.cs" />
+      <File FileName="Drill_255/Program.cs" Line="26" Column="33" />
+      <File FileName="Drill_255/employee.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Drill_255" expanded="True">
             <Node name="Drill_255" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="employee.cs" selected="True" />
             </Node>
           </Node>
         </State>
