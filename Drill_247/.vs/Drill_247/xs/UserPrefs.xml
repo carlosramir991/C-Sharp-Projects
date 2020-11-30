@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{926E2A5E-06C9-4E94-BD3F-46328DC92772}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Drill_247/Program.cs">
     <Files>
-      <File FileName="Drill_247/Program.cs" Line="20" Column="60" />
-      <File FileName="Drill_247/employee.cs" Line="8" Column="45" />
+      <File FileName="Drill_247/Program.cs" Line="2" Column="1" />
+      <File FileName="Drill_247/employee.cs" Line="13" Column="14" />
       <File FileName="Drill_247/IQuittable.cs" Line="5" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Drill_247" expanded="True">
-            <Node name="Drill_247" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Drill_247" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Drill__247 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Drill_247/Program.cs" line="22" column="12" endLine="22" endColumn="19" offsetX="-1" offsetY="-1" expression="Console" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
