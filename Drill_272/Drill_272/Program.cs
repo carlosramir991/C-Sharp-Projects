@@ -22,11 +22,11 @@ namespace Drill_272
         static void Main(string[] args)
         {
             employees<string> emp = new employees<string>();
-            emp.firstName= new List<string>() { "Carlos", "Eric", "Joe", "Joe" };
+            emp.firstName= new List<string>() { "Carlos", "Eric", "Joe", "Joe","Andrew","Luis","Gret","Erin","Don","Erica" };
             employees<string> emp2 = new employees<string>();
-            emp2.lastName = new List<string>() { "Ramirez", "Jones", "Jonas", "Shmo" };
+            emp2.lastName = new List<string>() { "Ramirez", "Jones", "Jonas", "Shmo","Clara","Dolores","Rodriguez","Alex","Perez","Chenney"};
             employees<int> emp3 = new employees<int>();
-            emp3.empId = new List<int> { 12, 1, 3, 8 };
+            emp3.empId = new List<int> { 12, 1, 3, 8,4,20,33,31,66,2 };
             employees<string> emp4 = new employees<string>();
             emp4.joeEmpls = new List<string>();
             employees<string> emp5 = new employees<string>();
