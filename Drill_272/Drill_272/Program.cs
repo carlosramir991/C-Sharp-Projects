@@ -32,10 +32,18 @@ namespace Drill_272
             employees<string> emp5 = new employees<string>();
             emp5.joeEmpls = new List<string>();
             emp5.joeEmpls = emp.firstName.Where(x => x == "Joe").ToList();
+            List<int> empId2 = new List<int>();
+            empId2 = emp3.empId.Where(x => x > 5).ToList();
+            
 
             foreach (string name in emp5.joeEmpls)
             {
                 Console.WriteLine(name);
+            }
+
+            foreach (int number in empId2)
+            {
+                Console.WriteLine(number);
             }
 
 
