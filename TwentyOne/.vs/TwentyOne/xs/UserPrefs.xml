@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{B001AED1-55F3-4BE6-B322-05F641962EA5}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="TwentyOne/Program.cs">
     <Files>
-      <File FileName="TwentyOne/Program.cs" Line="45" Column="9" />
+      <File FileName="TwentyOne/Program.cs" Line="28" Column="33" />
+      <File FileName="TwentyOne/Player.cs" Line="14" Column="1" />
       <File FileName="TwentyOne/Card.cs" />
       <File FileName="TwentyOne/Deck.cs" />
     </Files>
