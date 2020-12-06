@@ -1,0 +1,12 @@
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/obj/Debug/netcoreapp3.1/Drill_310.csprojAssemblyReference.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/obj/Debug/netcoreapp3.1/Drill_310.AssemblyInfoInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/obj/Debug/netcoreapp3.1/Drill_310.AssemblyInfo.cs
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/obj/Debug/netcoreapp3.1/Drill_310.csproj.CoreCompileInputs.cache
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/bin/Debug/netcoreapp3.1/Drill_310.deps.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/bin/Debug/netcoreapp3.1/Drill_310.runtimeconfig.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/bin/Debug/netcoreapp3.1/Drill_310.runtimeconfig.dev.json
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/bin/Debug/netcoreapp3.1/Drill_310.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/bin/Debug/netcoreapp3.1/Drill_310.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/obj/Debug/netcoreapp3.1/Drill_310.dll
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/obj/Debug/netcoreapp3.1/Drill_310.pdb
+/Users/slims/Documents/GitHub/C-Sharp-Projects/Drill_310/Drill_310/obj/Debug/netcoreapp3.1/Drill_310.genruntimeconfig.cache
