@@ -14,7 +14,7 @@ namespace Drill_310
     {
         static void Main(string[] args)
         {
-            string fname = "Carlos";
+            const string fname = "Carlos";
             Console.WriteLine("What is your last name?");
             string lname = Console.ReadLine();
 
