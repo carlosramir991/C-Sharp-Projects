@@ -18,8 +18,12 @@ namespace Drill_300
         {
             Console.WriteLine("The current date and time at the moment is "+DateTime.Now);
             Console.WriteLine("Please enter a number.");
-            string input = Console.ReadLine()+" at " + DateTime.Now;
-            Console.WriteLine("You entered " + input);
+            int input = Convert.ToInt32(Console.ReadLine());
+            TimeSpan result = TimeSpan.FromHours(input);
+            DateTime newTime = DateTime.Now + result;
+            Console.WriteLine("The time will be "+newTime+ " in "+result+" hours.");
+
+
 
         }
     }
