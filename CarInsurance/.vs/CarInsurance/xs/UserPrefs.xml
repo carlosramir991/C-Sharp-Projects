@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{880751E5-037A-471C-A6A6-A8FCEFCAAC5B}|">
+  <MonoDevelop.Ide.ItemProperties.CarInsurance PreferredExecutionTarget="/Users/slims/Desktop/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarInsurance/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="CarInsurance/Controllers/HomeController.cs" Line="31" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CarInsurance" expanded="True">
+            <Node name="CarInsurance" expanded="True">
+              <Node name="App_Data" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

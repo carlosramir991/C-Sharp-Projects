@@ -1,0 +1,1 @@
+﻿<%@ Application Inherits="TechAcadStudentsMVC.Global" %>
