@@ -1,54 +1,34 @@
-﻿@using CarInsurance.Models.Table
-@model List<Table>
+﻿@model IEnumerable<CarInsurance.Models.Table>
 
-<div class="row row-no-gutters m-3">
-    <div class="glyphicon-credit-card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
-        <h5 class="col-md-offset-0">Quotes</h5>
-    </div>
-        <div class="card-body">
-            @foreach (var quote in Model)
-                        {
-                        <div class="row">
-                            <div class="col">
 
-                                @quote.FirstName
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.Quote)
+        </th>
+    </tr>
 
-                            </div>
-                            <div class="col">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Quote)
+            </td>
+        </tr>
+    }
 
-                                @quote.LastName
-
-                            </div>
-                            <div class="col">
-                                @quote.EmailAddress
-                            </div>
-                            <div class="col">
-                                @quote.DateOfBirth
-                            </div>
-                            <div class="col">
-                                @quote.CarYear
-                            </div>
-                            <div class="col">
-                                @quote.CarMake
-                            </div>
-                            <div class="col">
-                                @quote.CarModel
-                            </div>
-                            <div class="col">
-                                @quote.DUI
-                            </div>
-                            <div class="col">
-                                @quote.SpeedingTickets
-                            </div>
-                            <div class="col">
-                                @quote.CoverageType
-                            </div>
-                            <div class="col">
-                                @quote.Quote
-                            </div>
-
-                                }
-
-                    </div>
-        </div>
-</div>
+</table>

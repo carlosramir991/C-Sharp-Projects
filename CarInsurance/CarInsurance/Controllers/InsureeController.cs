@@ -51,6 +51,60 @@ namespace CarInsurance.Controllers
 
             if (ModelState.IsValid)
             {
+                table.Quote = 50;
+                int tickets = table.SpeedingTickets * 10;
+                table.Quote += tickets;
+
+                if (table.DateOfBirth >= DateTime.Now.AddYears(-18))
+                {
+
+                    table.Quote += 50;
+
+
+                }
+                if (table.DateOfBirth == DateTime.Now.AddYears(-19) || table.DateOfBirth == DateTime.Now.AddYears(-20) || table.DateOfBirth == DateTime.Now.AddYears(-21)|| table.DateOfBirth == DateTime.Now.AddYears(-22)|| table.DateOfBirth == DateTime.Now.AddYears(-23)|| table.DateOfBirth == DateTime.Now.AddYears(-24)|| table.DateOfBirth == DateTime.Now.AddYears(-25))
+                {
+                    table.Quote += 50;
+
+                }
+                if (table.DateOfBirth < DateTime.Now.AddYears(-25))
+                {
+                    table.Quote += 25;
+                }
+                if(table.CarYear < 2000)
+                {
+                    table.Quote += 25;
+                }
+                if(table.CarYear > 2015)
+                {
+                    table.Quote += 25;
+                }
+                if(table.CarMake == "Porsche")
+                {
+                    table.Quote += 25;
+                }
+                if(table.CarMake == "Porsche" && table.CarModel == "911 Carrera")
+                {
+                    table.Quote += 25;
+                }
+                if(table.DUI == true)
+                {
+                    double DUI = Convert.ToDouble(table.Quote) * .25;
+                    table.Quote += Convert.ToInt32(DUI);
+                }
+                if(table.CoverageType = true)
+                {
+                    double coverage = Convert.ToDouble(table.Quote) * .50;
+                    table.Quote += Convert.ToInt32(coverage);
+                }
+
+
+                
+                
+
+
+                
+
                 db.Tables.Add(table);
                 db.SaveChanges();
                 return RedirectToAction("Index");
