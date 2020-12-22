@@ -4,7 +4,7 @@
    <h2>Projects</h2>
   <ul>
     <li><a href="https://github.com/carlosramir991/C-Sharp-Projects/tree/main/CarInsurance"> Car Insurance</a></li>
-    <li> Create Student</li>
+    <li><a href="https://github.com/carlosramir991/C-Sharp-Projects/tree/main/CreateStudent"> Create Student</a></li>
   </ul>
   
   <h3>Car Insurance</h3>
