@@ -1030,11 +1030,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Desktop\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj",
       "projectName": "FinalAssignment",
-      "projectPath": "Z:\\Desktop\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj",
       "packagesPath": "C:\\Users\\slims\\.nuget\\packages\\",
-      "outputPath": "Z:\\Desktop\\FinalAssignment\\FinalAssignment\\obj\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\FinalAssignment\\FinalAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\slims\\AppData\\Roaming\\NuGet\\NuGet.Config",

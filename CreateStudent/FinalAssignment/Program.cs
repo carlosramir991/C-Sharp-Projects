@@ -25,7 +25,7 @@ namespace FinalAssignment
 
                 var student = new student { fname = st.fname, lname = st.lname , studentId = st.studentId };
                 db.students.Add(student);
-
+                db.SaveChanges();
                 var query = from s in db.students
                             orderby s.fname
                             select s;
