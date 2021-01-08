@@ -1,0 +1,109 @@
+{% extends "ChessApp/base.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block title %}Chess Site{% endblock %}
+
+{% block content %}
+<div class="bg-secondary text-light mt-4 p-1 pl-4 rounded-top">
+  <h4>Group Statistics</h4>
+</div>
+<div class="text-dark p-1 border border-top-0">
+  {% crispy form %}
+</div>
+
+{% if group_db %}
+<div>
+  <div class="row bg-secondary mt-4 p-1 rounded-top">
+    <div class="col text-light">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item bg-secondary d-flex justify-content-between align-items-center">Total Games: <span class="badge badge-light badge-pill">{{ player_1_stats.total_games }}</span> </li>
+        <li class="list-group-item bg-secondary d-flex justify-content-between align-items-center">
+          Wins:<span class="badge badge-light badge-pill">{{ player_1_stats.total_win}}</span>
+          Losses:<span class="badge badge-light badge-pill">{{ player_1_stats.total_loss }}</span>
+          Draws:<span class="badge badge-light badge-pill">{{ player_1_stats.total_draw }}</span>
+        </li>
+        <li class="list-group-item bg-secondary d-flex justify-content-between align-items-center">Win/Loss Ratio: <span class="badge badge-light badge-pill">{{ player_1_stats.win_ratio }}</span></li>
+        <li class="list-group-item bg-secondary d-flex justify-content-between align-items-center">Average Opponent Rating: <span class="badge badge-light badge-pill">{{ player_1_stats.avg_opp_rating }}</span></li>
+      </ul>
+    </div>
+    <div class="col bg-light text-secondary rounded-top">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item bg-light d-flex justify-content-between align-items-center">Total Games: <span class="badge badge-secondary badge-pill">{{ player_2_stats.total_games }}</span> </li>
+        <li class="list-group-item bg-light d-flex justify-content-between align-items-center">
+          Wins:<span class="badge badge-secondary badge-pill">{{ player_2_stats.total_win}}</span>
+          Losses:<span class="badge badge-secondary badge-pill">{{ player_2_stats.total_loss }}</span>
+          Draws:<span class="badge badge-secondary badge-pill">{{ player_2_stats.total_draw }}</span>
+        </li>
+        <li class="list-group-item bg-light d-flex justify-content-between align-items-center">Win/Loss Ratio: <span class="badge badge-secondary badge-pill">{{ player_2_stats.win_ratio }}</span></li>
+        <li class="list-group-item bg-light d-flex justify-content-between align-items-center">Average Opponent Rating: <span class="badge badge-secondary badge-pill">{{ player_2_stats.avg_opp_rating }}</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row bg-secondary text-light mt-4 p-1 rounded-top">
+    <div class="col bg-secondary text-light text-center">
+      <h4>{{ group_db.player1 }}</h4>
+        <div class="row bg-secondary text-light p-1">
+          <div class="col bg-secondary text-light text-center"><h5>Date</h5></div>
+          <div class="col bg-secondary text-light text-center"><h5>Opponent</h5></div>
+          <div class="col bg-secondary text-light text-center"><h5>Rating</h5></div>
+          <div class="col bg-secondary text-light text-center"><h5>Result</h5></div>
+        </div>
+        {% for game in group_games1 %}
+        {% if game.white_player == group_db.player1 %}
+        <div class="row bg-secondary text-light p-1">
+          <div class="col bg-secondary text-light text-center">{{ game.end_time }}</div>
+          <div class="col bg-secondary text-light text-center">{{ game.black_player }}</div>
+          <div class="col bg-secondary text-light text-center">{{ game.black_player_rating }}</div>
+          <div class="col bg-secondary text-light text-center">{{ game.white_player_result }}</div>
+        </div>
+        {% elif game.black_player == group_db.player1 %}
+        <div class="row bg-secondary text-light p-1">
+          <div class="col bg-secondary text-light text-center">{{ game.end_time }}</div>
+          <div class="col bg-secondary text-light text-center">{{ game.white_player }}</div>
+          <div class="col bg-secondary text-light text-center">{{ game.white_player_rating }}</div>
+          <div class="col bg-secondary text-light text-center">{{ game.black_player_result }}</div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="col bg-light text-secondary text-center rounded-top">
+      <h4>{{ group_db.player2 }}</h4>
+        <div class="row bg-light text-secondary p-1">
+          <div class="col bg-light text-secondary text-center"><h5>Date</h5></div>
+          <div class="col bg-light text-secondary text-center"><h5>Opponent</h5></div>
+          <div class="col bg-light text-secondary text-center"><h5>Rating</h5></div>
+          <div class="col bg-light text-secondary text-center"><h5>Result</h5></div>
+          <div class="col bg-light">&nbsp;</div>
+        </div>
+        {% for game in group_games2 %}
+        {% if game.white_player == group_db.player2 %}
+        <div class="row bg-light text-secondary p-1">
+          <div class="col bg-light text-secondary text-center">{{ game.end_time }}</div>
+          <div class="col bg-light text-secondary text-center">{{ game.black_player }}</div>
+          <div class="col bg-light text-secondary text-center">{{ game.black_player_rating }}</div>
+          <div class="col bg-light text-secondary text-center">{{ game.white_player_result }}</div>
+          <div class="col bg-light">
+            <form action="game_details">
+              <input type="hidden" id="game_id" name="game_id" value='{{ game.id }}'>
+              <input class="btn btn-secondary" type="submit" value="Details" >
+            </form>
+          </div>
+        </div>
+        {% elif game.black_player == group_db.player2 %}
+        <div class="row bg-light text-secondary p-1">
+          <div class="col bg-light text-secondary text-center">{{ game.end_time }}</div>
+          <div class="col bg-light text-secondary text-center">{{ game.white_player }}</div>
+          <div class="col bg-light text-secondary text-center">{{ game.white_player_rating }}</div>
+          <div class="col bg-light text-secondary text-center">{{ game.black_player_result }}</div>
+          <div class="col bg-light">&nbsp;</div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% endblock %}
